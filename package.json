@@ -22,7 +22,7 @@
     "@mdi/font": "^4.7.95",
     "@types/jquery": "^3.3.31",
     "hammerjs": "^2.0.8",
-    "jquery": "^2.2.4",
+    "jquery": "^3.4.0",
     "ngx-materialize": "^6.1.3",
     "rxjs": "~6.4.0",
     "truffle-contract": "^4.0.31",
