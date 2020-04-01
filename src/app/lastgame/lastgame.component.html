@@ -1,0 +1,20 @@
+<h5 class="center">
+    Last 10 Games transactions
+</h5>
+<table>
+    <thead>
+        <tr>
+            <th>From</th>
+            <th>Game</th>
+            <th>Sort Game</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let log of pastLogs" [ngClass]="{'green-text':log.isVictory === true}">
+        <td>{{log.address | markOnlyNumber}}</td>
+        <td>{{log.gamePlayed | addZero}}</td>
+        <td>{{log.sortNumber | addZero}}</td>
+        </tr>
+    </tbody>
+</table>

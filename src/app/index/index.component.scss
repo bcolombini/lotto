@@ -1,0 +1,20 @@
+.ball{
+    background: #adc0c4;
+    border-radius: 186px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 21px;
+    line-height: 57px;
+    padding: 0;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 57px;
+}
+.ball:hover{background-color: #01ac66;}
+
+.selected{background-color: #01ac66;}
+
+.lastgame{margin-top: 50px;}

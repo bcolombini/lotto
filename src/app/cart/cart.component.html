@@ -1,0 +1,21 @@
+<h4 >Resumo</h4>
+<div class="card ">
+    <div class="card-content">
+        <div class="row">
+            <div class="col l6">Número de jogos</div>
+            <div class="col l6 right">{{gamesTime}}</div>
+            <small class="col l12">Quatindade de jogos que serão jogados</small>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col l6">Probabilidade de ganhar</div>
+            <div class="col l6 right">{{probability}}</div>
+        </div>
+        <hr/>
+        <div class="row">
+            <h5 class="col l6">Total (ETH)</h5>
+            <h5 class="col l6 right">{{totalBet}}</h5>
+        </div>
+    </div>
+</div>
+<button type="submit" class="waves-effect waves-light btn right" [disabled]="disableSubmit()" (click)='doBet()'>Finalizar Aposta</button>

@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col l8 s12">
+        <h4 >Escolher ao menos 6 números</h4>
+        <div *ngFor="let i of numbers" class="ball" [class.selected]="isSelected(i)" id="{{i}}" (click)="onSelected($event)">{{i | addZero}}</div>
+    </div>
+    <div class="col l4">
+        <app-cart #cart></app-cart>
+    </div>
+    <div class="row">
+        <div class="col s12 lastgame">
+            <app-lastgame #lastgame></app-lastgame>
+        </div>
+    </div>
+</div>
+
